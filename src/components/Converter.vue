@@ -52,7 +52,7 @@ export default {
   },
   data() {
     return {
-      apiKey: process.env.OCD_API_KEY,
+      apiKey: process.env.VUE_APP_OCD_API_KEY,
       loading: false,
       input: "",
       inputRaw: "",
