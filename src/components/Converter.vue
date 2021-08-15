@@ -52,7 +52,7 @@ export default {
   },
   data() {
     return {
-      apiKey: "",
+      apiKey: process.env.OCD_API_KEY,
       loading: false,
       input: "",
       inputRaw: "",
